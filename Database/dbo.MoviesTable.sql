@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Table]
+(
+	[MovieId] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+	[MovieName] VARCHAR(100) NOT NULL,
+	[Category] VARCHAR(50) NOT NULL,
+	[Rating] INT NOT NULL
+)
